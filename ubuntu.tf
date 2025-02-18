@@ -1,4 +1,5 @@
-# create security group for the ec2 instance
+
+# test purpos create security group for the ec2 instance
 resource "aws_security_group" "ec2_security_group" {
   name        = "ec2 security group"
   description = "allow access on ports 8080 and 22"
